@@ -13,7 +13,7 @@ steps:
 - script: pip --version
   displayName: 'pip version'
 
-#- script: |
-#    echo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-#    echo python get-pip.py
-#  displayName: 'Get and install pip'
+- script: |
+    echo 123
+    echo 1234
+  displayName: 'Get and install pip'

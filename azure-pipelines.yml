@@ -10,10 +10,10 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: pip --version
+  displayName: 'pip version'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+#- script: |
+#    echo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+#    echo python get-pip.py
+#  displayName: 'Get and install pip'
